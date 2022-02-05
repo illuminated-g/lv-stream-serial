@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-25 23:26:18" Modified_Date="2022-01-03 02:40:16" Creator="Localization Tester" Comments="" ID="ffdce715cde79ae99dfb8b673b198664">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-25 23:26:18" Modified_Date="2022-02-04 23:59:03" Creator="Localization Tester" Comments="" ID="3bbd283bfbd9ac7c6386545e902630c1">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Serial_Stream</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.0.0.20</External_Dependencies>
-      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.0.0.20</Direct_Dependencies>
+      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.1.0.24</External_Dependencies>
+      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.1.0.24</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -31,7 +31,9 @@
     <VI_Package_Configuration_File>IG Serial Stream.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Serial client implementation of IG Stream Base</One_Line_Description_Summary>
-      <Description/>
+      <Description>Provides a SerialStream implementation based on the IG Stream Base library. Uses VISA under the hood but is only intended for serial use, other connections may work but are not tested.
+
+A demo serial terminal is provided demonstrating use of the library to read/write data to a serial port and allow a user to interact with the serial device.</Description>
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-stream-serial</URL>
@@ -296,21 +298,7 @@
         <Path>Stream-Serial\Serial Stream\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Data.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Stream-Serial\Serial Stream\Write Data.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>A89BAE0B838B7BC749608C0F58BF45F8</GUID>
+      <GUID>D5F02C0961E73B3524034FECF3F81F7F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
