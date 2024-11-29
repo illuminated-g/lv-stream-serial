@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Serial Test.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/IG Serial Stream/Test/Serial Test.lvlib"/>
+		<Item Name="Serial Test.lvlib" Type="Library" URL="../Test/Serial Test.lvlib"/>
 		<Item Name="Stream-Serial.lvlib" Type="Library" URL="../Stream-Serial/Stream-Serial.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
